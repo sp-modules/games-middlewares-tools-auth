@@ -1,0 +1,29 @@
+{
+	"name" : "Auth",
+	"display_name" : "Authentication",
+	"description" : "<p>This middleware is used by authentication package. Once enabled, user need to authentication to this app to access any resource.</p>",
+	"module_type" : "middlewares",
+	"app_type" : "games",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://www.github.com/sp-modules/games-middlewares-tools-auth",
+	"class" : "Apps\\Games\\Middlewares\\Auth",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.1",
+			"repo" : "https://dev.bazaari.com.au/sp-core/core"
+		},
+		"components" : [],
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"external" : []
+	},
+	"settings" : 
+	{
+		"mandatory" : true
+	}
+}
